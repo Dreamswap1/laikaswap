@@ -17,6 +17,7 @@ export const USDT = new Token(ChainId.MAINNET, '0x55d398326f99059ff7754852469990
 export const EOS = new Token(ChainId.MAINNET, '0x56b6fb708fc5732dec1afc8d8556423a2edccbd6', 18, 'EOS', 'EOS Token')
 export const DOT = new Token(ChainId.MAINNET, '0x7083609fce4d1d8dc0c979aab8c869ea2c873402', 18, 'DOT', 'Polkadot Token')
 export const ETH = new Token(ChainId.MAINNET, '0x2170ed0880ac9a755fd29b2688956bd959f933f8', 18, 'ETH', 'Ethereum Token')
+export const LAIKA = new Token(ChainId.MAINNET, '0x270877FBDAdd2E28C7EAf08e528691B95684207e', 9, 'LAIKA', 'LaikaCoin')
 
 const WETH_ONLY: ChainTokenList = {
   [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],

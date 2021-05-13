@@ -1,6 +1,6 @@
 {
   "name": "pancakeswap",
-  "timestamp": "2020-08-25T15:41:29.665Z",
+  "timestamp": "2021-05-13T15:41:29.665Z",
   "version": {
     "major": 1,
     "minor": 3,
@@ -10,6 +10,13 @@
   "logoURI": "/images/coins/wbnb.png",
   "keywords": ["pancake", "default"],
   "tokens": [
+    {
+      "name": "LaikaCoin",
+      "symbol": "LAIKA",
+      "address": "0x270877FBDAdd2E28C7EAf08e528691B95684207e",
+      "chainId": 56,
+      "decimals": 9
+    },
     {
       "name": "Goose Golden Egg",
       "symbol": "EGG",
