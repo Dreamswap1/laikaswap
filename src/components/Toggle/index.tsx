@@ -15,7 +15,7 @@ const ToggleElement = styled.span<{ isActive?: boolean; isOnSwitch?: boolean }>`
 const StyledToggle = styled.button<{ isActive?: boolean; activeElement?: boolean }>`
   border-radius: 16px;
   border: 1px solid ${({ theme, isActive }) => (isActive ? theme.colors.primaryDark : theme.colors.textDisabled)};
-  display: flex;
+  display: none;
   width: fit-content;
   cursor: pointer;
   outline: none;

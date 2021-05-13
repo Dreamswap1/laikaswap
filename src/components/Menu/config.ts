@@ -1,96 +1,64 @@
 import { MenuEntry } from '@pancakeswap-libs/uikit'
 
 const config: MenuEntry[] = [
-  {
-    label: 'Home',
-    icon: 'HomeIcon',
-    href: 'https://www.goosedefi.com/'
-  },
-  {
-    label: 'Trade',
-    icon: 'TradeIcon',
-    initialOpenState: true,
-    items: [
-      {
-        label: 'Exchange',
-        href: '/swap'
+   {
+     label: 'Home',
+     icon: 'HomeIcon',
+     href: 'https://www.laikacommunity.com/'
+   },
+   {
+     label: 'Info',
+     icon: 'InfoIcon',
+     items: [
+       {
+         label: 'BSCSCAN',
+         href: 'https://bscscan.com/token/0x270877fbdadd2e28c7eaf08e528691b95684207e',
+       },
+       {
+         label: 'CoinGecko',
+         href: 'https://www.coingecko.com/en/coins/laikacoin',
+       },
+       {
+         label: 'CoinMarketCap',
+         href: 'https://coinmarketcap.com/currencies/laikacoin/',
+       },
+       {
+         label: 'LitePaper',
+         href: 'https://github.com/kesaviweb/laikacoin/blob/main/litepaper-laika.pdf',
+       },
+     ]
+   },
+   {
+     label: 'Socials',
+     icon: 'MoreIcon',
+     items: [
+       {
+         label: "Telegram",
+         href: "https://t.me/LaikaCommunity",
+       },
+       {
+        label: "Medium",
+        href: "https://laikacommunity.medium.com/",
       },
       {
-        label: 'Liquidity',
-        href: '/pool'
-      }
-    ]
-  },
-  {
-    label: 'Farms',
-    icon: 'FarmIcon',
-    href: 'https://www.goosedefi.com/farms'
-  },
-  {
-    label: 'Nests',
-    icon: 'PoolIcon',
-    href: 'https://www.goosedefi.com/nests'
-  },
-  // {
-  //   label: 'Lottery',
-  //   icon: 'TicketIcon',
-  //   href: 'https://www.goosedefi.com/lottery'
-  // },
-  {
-    label: 'Info',
-    icon: 'InfoIcon',
-    items: [
-      {
-        label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6',
+        label: "Reddit",
+        href: "https://www.reddit.com/r/LAiKA_COiN/",
       },
-      {
-        label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/goose-finance',
-      },
-      {
-        label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/goose-finance/',
-      },
-      {
-        label: 'AstroTools',
-        href: 'https://app.astrotools.io/pancake-pair-explorer/0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
-      },
-    ]
-  },
-  {
-    label: 'More',
-    icon: 'MoreIcon',
-    items: [
-      {
-        label: "Github",
-        href: "https://github.com/goosedefi/",
-      },
-      {
-        label: "Docs",
-        href: "https://goosedefi.gitbook.io/goose-finance/",
-      },
-      {
-        label: "Blog",
-        href: "https://goosefinance.medium.com/",
-      },
-    ],
-  },
-  {
-    label: 'Partnerships/IFO',
-    icon: 'GooseIcon',
-    href: 'https://docs.google.com/forms/d/e/1FAIpQLSe7ycrw8Dq4C5Vjc9WNlRtTxEhFDB1Ny6jlAByZ2Y6qBo7SKg/viewform?usp=sf_link',
-  },
-  {
-    label: 'Audit by Hacken',
-    icon: 'AuditIcon',
-    href: 'https://www.goosedefi.com/files/hackenAudit.pdf',
-  },
-  {
-    label: 'Audit by CertiK',
-    icon: 'AuditIcon',
-    href: 'https://certik.org/projects/goose-finance',
-  },
+       {
+         label: "Twitter",
+         href: "https://twitter.com/CommunityLaika",
+       },
+       {
+         label: "Instagram",
+         href: "https://www.instagram.com/laikacoin_official/",
+       },
+     ],
+   },
+   {
+     label: 'Audited by TechRate',
+     icon: 'AuditIcon',
+     href: 'https://github.com/TechRate/Smart-Contract-Audits/blob/main/LaikaCoin%20Full%20Smart%20Contract%20Security%20Audit.pdf',
+   },
 ]
 
 export default config
