@@ -35,6 +35,11 @@ const GlobalStyle = createGlobalStyle`
       margin-top:10px;
     }
   }
+  @media only screen and (max-width: 540px) {
+    body {
+      background: url(../images/egg/space.jpg);
+    }
+  }
 `
 
 export default GlobalStyle
