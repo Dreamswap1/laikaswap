@@ -104,7 +104,6 @@ export default function SwapModalFooter({
           disabled={disabledConfirm}
           variant={severity > 2 ? 'danger' : 'primary'}
           mt="10px"
-          id="laika-btn"
           fullWidth
         >
           {severity > 2 ? 'Swap Anyway' : 'Confirm Swap'}

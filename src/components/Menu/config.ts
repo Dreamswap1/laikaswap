@@ -55,7 +55,7 @@ const config: MenuEntry[] = [
      ],
    },
    {
-     label: 'Audited by TechRate',
+     label: 'Contract Audited by TechRate',
      icon: 'AuditIcon',
      href: 'https://github.com/TechRate/Smart-Contract-Audits/blob/main/LaikaCoin%20Full%20Smart%20Contract%20Security%20Audit.pdf',
    },

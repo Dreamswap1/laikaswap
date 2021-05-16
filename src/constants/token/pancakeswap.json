@@ -15,7 +15,8 @@
       "symbol": "LAIKA",
       "address": "0x270877FBDAdd2E28C7EAf08e528691B95684207e",
       "chainId": 56,
-      "decimals": 9
+      "decimals": 9,
+      "logoURI": "/images/egg/logo.png"
     },
     {
       "name": "WBNB Token",

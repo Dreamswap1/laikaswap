@@ -11,13 +11,13 @@ type ChainTokenList = {
   readonly [chainId in ChainId]: Token[]
 }
 
+export const LAIKA = new Token(ChainId.MAINNET, '0x270877FBDAdd2E28C7EAf08e528691B95684207e', 9, 'LAIKA', 'LaikaCoin')
 export const DAI = new Token(ChainId.MAINNET, '0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3', 18, 'DAI', 'Dai Stablecoin')
 export const BUSD = new Token(ChainId.MAINNET, '0xe9e7cea3dedca5984780bafc599bd69add087d56', 18, 'BUSD', 'Binance USD')
 export const USDT = new Token(ChainId.MAINNET, '0x55d398326f99059ff775485246999027b3197955', 18, 'USDT', 'Tether USD')
 export const EOS = new Token(ChainId.MAINNET, '0x56b6fb708fc5732dec1afc8d8556423a2edccbd6', 18, 'EOS', 'EOS Token')
 export const DOT = new Token(ChainId.MAINNET, '0x7083609fce4d1d8dc0c979aab8c869ea2c873402', 18, 'DOT', 'Polkadot Token')
 export const ETH = new Token(ChainId.MAINNET, '0x2170ed0880ac9a755fd29b2688956bd959f933f8', 18, 'ETH', 'Ethereum Token')
-export const LAIKA = new Token(ChainId.MAINNET, '0x270877FBDAdd2E28C7EAf08e528691B95684207e', 9, 'LAIKA', 'LaikaCoin')
 
 const WETH_ONLY: ChainTokenList = {
   [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],

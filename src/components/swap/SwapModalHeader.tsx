@@ -98,7 +98,7 @@ export default function SwapModalHeader({
               <AlertTriangle size={20} style={{ marginRight: '8px', minWidth: 24 }} />
               <Main color={theme.colors.primary}> Price Updated</Main>
             </RowFixed>
-            <Button id="laika-btn" onClick={onAcceptChanges}>Accept</Button>
+            <Button id="laika-price-update" onClick={onAcceptChanges}>Accept</Button>
           </RowBetween>
         </SwapShowAcceptChanges>
       ) : null}

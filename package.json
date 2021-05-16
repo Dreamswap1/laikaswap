@@ -1,7 +1,7 @@
 {
   "name": "laikaswap-frontend",
   "description": "AMM Interface",
-  "homepage": ".",
+  "homepage": "/",
   "private": true,
   "dependencies": {
     "@crowdin/crowdin-api-client": "^1.8.16",
@@ -47,6 +47,7 @@
     "lodash.flatmap": "^4.5.0",
     "multicodec": "^2.0.0",
     "multihashes": "^3.0.1",
+    "netlify-cli": "^3.29.15",
     "polished": "^3.3.2",
     "react": "^17.0.1",
     "react-device-detect": "^1.6.2",
